@@ -37,8 +37,24 @@ header {
   margin: 0 auto;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 header {
   padding-bottom: 25px;
+}
+
+.box-container {
+  width: 90vw; /* Responsive width */
+  max-width: 500px; /* caps width on larger screens */
+  background-color: white;
+  border: 1px solid #535353;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .tweet-input-area {
