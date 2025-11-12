@@ -46,14 +46,3 @@ index.js
 data.js
 /images/
 ```
-
----
-
-## 🪄 Future Ideas
-
-* Add tweet input functionality (create new posts dynamically)
-* Implement localStorage to save likes and replies
-* Add dark/light mode toggle
-* Introduce tweet timestamps and sorting by recency
-
----
